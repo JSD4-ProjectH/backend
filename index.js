@@ -14,7 +14,7 @@ import ActivityRoutes from "./routes/activities-routes.js";
 const app = express();
 
 const acceptedOrigin = {
-  origin: "https://everlasting.vercel.app",
+  origin: "http://localhost:5174",
   optionsSuccessStatus: 200,
 };
 app.use(cors(acceptedOrigin));
