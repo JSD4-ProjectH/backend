@@ -14,7 +14,7 @@ import ActivityRoutes from "./routes/activities-routes.js";
 const app = express();
 
 const acceptedOrigin = {
-  origin: "https://everlasting.vercel.app",
+  origin: "https://everlasting-projecth.vercel.app",
   optionsSuccessStatus: 200,
 };
 app.use(cors(acceptedOrigin));
@@ -47,3 +47,6 @@ const start = async () => {
 };
 
 start();
+
+//https://everlasting.vercel.app
+//https://everlasting-gkyr.onrender.com
